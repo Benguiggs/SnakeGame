@@ -1,0 +1,47 @@
+body {
+    background: rgb(34,165,195);
+    background: linear-gradient(0deg, rgba(34,165,195,1) 1%, rgba(27,108,11,0.9542017490589986) 36%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    position: relative;
+    border: 2px solid #000000;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+  }
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .snake {
+    background-color: green; /* Couleur du serpent */
+    border: 1px solid darkgreen; /* Bordure du serpent */
+    border-radius: 4px; /* Coins arrondis du serpent */
+  }
+  
+  
+  .game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 32px;
+    color: red;
+  }
+  
+  
